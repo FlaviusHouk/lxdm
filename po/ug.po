@@ -36,6 +36,10 @@ msgstr "تىل:"
 msgid "Keyboard:"
 msgstr "ھەرپتاختا:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "ھەرپتاختا"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "lxdm نى سەپلەش"

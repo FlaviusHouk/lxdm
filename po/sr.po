@@ -37,6 +37,10 @@ msgstr "Језик:"
 msgid "Keyboard:"
 msgstr "Tастатурa:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "Tастатурa"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "Ликс-ДМ — Поставке"

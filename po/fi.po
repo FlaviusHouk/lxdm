@@ -35,6 +35,10 @@ msgstr "Kieli:"
 msgid "Keyboard:"
 msgstr "Näppäimistö:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "Näppäimistö"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "lxdm:n asetukset"

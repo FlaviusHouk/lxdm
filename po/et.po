@@ -35,6 +35,10 @@ msgstr "Keel:"
 msgid "Keyboard:"
 msgstr "Klaviatuur:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "Klaviatuur"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "lxdm konfig"

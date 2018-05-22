@@ -1,5 +1,6 @@
 1 compile and install
 
+./autogen.sh
 ./configure --prefix=/usr --sysconfdir=/etc
 make
 make install

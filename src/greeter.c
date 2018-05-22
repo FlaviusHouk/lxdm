@@ -70,6 +70,7 @@ static GtkWidget* user_list;
 static GtkWidget* sessions;
 static GtkWidget* lang;
 
+static GtkWidget* onscreenkeyboard_btn;
 static GtkWidget* exit_btn;
 
 static GtkWidget* exit_menu;
@@ -80,6 +81,8 @@ static char* pass = NULL;
 
 static char* ui_file = NULL;
 static char *ui_nobody = NULL;
+
+static char* onscreenkeyboard_cmd = NULL;
 
 static GIOChannel *greeter_io;
 
@@ -720,6 +723,15 @@ static void on_exit_clicked(GtkButton* exit_btn, gpointer user_data)
                    0, gtk_get_current_event_time() );
 }
 
+static void on_screenkeyboard_clicked(GtkButton* screenkeyboard_btn, 
+                                      gpointer user_data)
+{
+	gboolean res;
+	/* set the current xkb */
+	res=g_spawn_command_line_async(onscreenkeyboard_cmd, NULL);
+	printf("spawn onscreenkeyboard: %s %d\n", onscreenkeyboard_cmd, res);
+}
+
 static void load_exit()
 {
     GtkWidget* item;
@@ -1246,6 +1258,21 @@ static void create_win()
     {
 		exit_btn = (GtkWidget*)gtk_builder_get_object(builder, "exit");
 		load_exit();
+    }
+
+	onscreenkeyboard_btn = (GtkWidget*)gtk_builder_get_object(builder, "onscreenkeyboard");
+	onscreenkeyboard_cmd = g_key_file_get_string(config, "display", "onscreenkeyboard",NULL);
+
+    if(onscreenkeyboard_cmd && onscreenkeyboard_cmd[0])
+    {
+        gtk_widget_show(onscreenkeyboard_btn);
+	    g_signal_connect(onscreenkeyboard_btn, "clicked", G_CALLBACK(on_screenkeyboard_clicked), NULL);
+    }
+    else
+    {
+		if (onscreenkeyboard_btn != NULL) {
+			gtk_widget_hide(onscreenkeyboard_btn);
+		}
     }
 
 	ui_get_geometry(window,&rc);

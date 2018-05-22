@@ -35,6 +35,10 @@ msgstr "Γλώσσα:"
 msgid "Keyboard:"
 msgstr "Πληκτρολόγιο:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "Πληκτρολόγιο"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "ρυθμίσεις lxdm"

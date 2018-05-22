@@ -37,6 +37,10 @@ msgstr "ភាសា"
 msgid "Keyboard:"
 msgstr "ប្លង់ក្តារចុច"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "ប្លង់ក្តារចុច"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr ""

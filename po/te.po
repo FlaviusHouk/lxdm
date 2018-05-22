@@ -36,6 +36,10 @@ msgstr "భాష:"
 msgid "Keyboard:"
 msgstr "కీబోర్డు:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "కీబోర్డు"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "lxdm స్వరూపణం"

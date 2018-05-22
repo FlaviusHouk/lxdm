@@ -45,6 +45,9 @@ lang=1
 ## if show keyboard layout select control
 keyboard=0
 
+## if set show onscreen-keyboard button and run content on click
+#onscreenkeyboard=onboard
+
 ## the theme of greeter
 theme=Industrial
 

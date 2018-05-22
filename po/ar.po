@@ -36,6 +36,10 @@ msgstr "اللغة:"
 msgid "Keyboard:"
 msgstr "لوحة المفاتيح:"
 
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "لوحة المفاتيح"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "ضبط lxdm"

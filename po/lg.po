@@ -39,6 +39,11 @@ msgstr "Lulimi:"
 msgid "Keyboard:"
 msgstr "Entegeka y'amapeesa:"
 
+# Button to show an onscreen-keyboard
+#: ../data/lxdm.glade.h:4 ../data/themes/Industrial/greeter.ui.h:4
+msgid "Keyboard"
+msgstr "Entegeka y'amapeesa"
+
 #: ../data/config.ui.h:1
 msgid "lxdm config"
 msgstr "Kuteekateeka lxdm"
