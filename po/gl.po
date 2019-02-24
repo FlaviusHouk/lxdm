@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:52+0100\n"
-"PO-Revision-Date: 2015-08-17 01:28+0000\n"
+"PO-Revision-Date: 2019-02-24 16:36+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -15,9 +15,9 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1439774930.219416\n"
+"X-POOTLE-MTIME: 1551026178.803799\n"
 
 #: ../data/lxdm.glade.h:1 ../data/themes/Industrial/greeter.ui.h:1
 #: ../src/greeter.c:141 ../src/greeter.c:239 ../src/greeter.c:935
@@ -70,7 +70,7 @@ msgstr "Panel transparente"
 
 #: ../data/config.ui.h:8
 msgid "Hide sessions"
-msgstr "Agochar as sesións"
+msgstr "Agachar as sesións"
 
 #: ../data/config.ui.h:9
 msgid "Show languages menu"
@@ -82,7 +82,7 @@ msgstr "Amosar as distribucións de teclado"
 
 #: ../data/config.ui.h:11
 msgid "Hide quit button"
-msgstr "Agochar o botón «Saír»"
+msgstr "Agachar o botón «Saír»"
 
 #: ../data/config.ui.h:12
 msgid "Other Options"
@@ -94,7 +94,7 @@ msgstr "Amosar a lista de usuarios"
 
 #: ../data/config.ui.h:14
 msgid "Hide time"
-msgstr "Agochar a hora"
+msgstr "Agachar a hora"
 
 #: ../src/gdm/gdm-languages.c:614
 msgid "Unspecified"
